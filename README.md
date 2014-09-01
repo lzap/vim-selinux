@@ -34,8 +34,8 @@ There is also a function called `SelinuxCtagsSilent` which has silenced output.
 Tired of adding tags file into individual `.gitignore` files for each project?
 Do this:
 
-  git config --global core.excludesfile '~/.cvsignore'
-  echo tags >> ~/.cvsignore
+    git config --global core.excludesfile '~/.cvsignore'
+    echo tags >> ~/.cvsignore
 
 Thanks Tim Pope for this tip.
 
