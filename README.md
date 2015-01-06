@@ -1,6 +1,6 @@
 # SELinux Vim plugin
 
-Helps SELinux policy maintainers to see through the m4 crap.
+Helps SELinux policy maintainers to see through the m4 thing.
 [Upstream site](https://github.com/lzap/vim-selinux).
 
 What does it do?
