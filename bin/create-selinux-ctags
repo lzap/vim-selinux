@@ -9,7 +9,7 @@ if test -d /usr/share/selinux/devel; then
     --regex-te='/^[ \t]*bool[ \t]+(\w+)/\1/b,bool/' \
     /usr/share/selinux/devel/include/*/*.if \
     /usr/share/selinux/devel/include/support/*.spt \
-    *.te
+    ./*.te ./*.if "$*"
 else
   echo "You need to install SELinux development packages (e.g. selinux-policy-devel)"
   exit 1
